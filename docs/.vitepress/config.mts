@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/pages/',
   title: "鳝鱼の个人文档",
   description: "一个基于VitePress的个人文档",
   themeConfig: {
