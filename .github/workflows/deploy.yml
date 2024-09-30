@@ -10,7 +10,7 @@ on:
 
   workflow_dispatch:
 
-  jobs:
+jobs:
   deploy-and-sync:
     runs-on: ubuntu-latest
     steps:
